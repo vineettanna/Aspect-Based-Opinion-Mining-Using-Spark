@@ -15,7 +15,7 @@ The project in this repository was successfully executed on Python 2.7 and Spark
 <img width="815" alt="methodology" src="https://user-images.githubusercontent.com/29344615/33693044-1e1ef026-dab6-11e7-9c95-e0dbd84279b4.png">
 
 - Run Asian LDA.ipynb to get a list of topics and the words belonging to each topic from the customer reviews of the Restaurants belonging to Chinese category
-- Using the results from last step we filter reviews containing the words obtained in LDA to find the polarity for each topic (obtained from LDA) at a restaurant level
+- Using the results from last step we filter reviews containing the words obtained in LDA to find the polarity for each topic (obtained from LDA) at a restaurant level. Then we run Linear Regression to find out which topics (aspects) matter the most for a Chinese restaurant. View Sentiment_Analysis_Linear_Regression.ipynb for this step. 
 
 ### Presentation
 
